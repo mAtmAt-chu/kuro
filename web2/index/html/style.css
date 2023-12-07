@@ -1,0 +1,187 @@
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    right: 0rem;
+    top: 0rem;
+    z-index: 1000;
+    width: 100%;
+    background: transparent; 
+    padding: 2rem 9%;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    left: 2.25rem; 
+}
+
+.logo {
+    font-size: 1.875rem; 
+    font-weight: 650;
+    color: antiquewhite;
+}
+.navlist {
+    display:flex;
+}    
+
+nav ul.navlist {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+    
+}
+.navlist a {
+    color:antiquewhite;
+    margin-left: 3.75rem; /* 60px */
+    font-size: 0.938rem; /* 15px */
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .65s ease;
+}
+.navlist a:hover {
+    border-bottom: 2px solid antiquewhite;
+}
+.Manga {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 93, 134) 56.2%, rgb(15, 155, 217) 89%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.manga-cover img {
+    margin: 6.25rem; /* 100px */
+    transition: transform 0.3s ease-in-out;     
+}
+.manga-cover img, .images li img {
+    max-width: 100%;
+    height: auto;
+}
+.manga-cover img:hover {
+    transform: scale(1.2);
+}
+.Manga.text p {
+    max-width: 37.5rem; /* 600px */
+    position: relative;
+    bottom: 4.0625rem; /* 65px */
+    left: 6.5625rem; /* 105px */
+    text-align: center;
+    letter-spacing: 0.25rem; /* 4px */
+    line-height: 1.5;
+    font-size: 0.875em;
+    color: antiquewhite;
+    font-size: 0.875rem;
+}
+.Manga.text a {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.ctaa {
+    position: relative;
+    text-align: right;
+    top: 150px; /* 130px */
+    right: 190px;
+}
+.Manga.text h1 {
+    position: relative;
+    right: 176px; /* 185px */
+    top: 7.5rem; /* 120px */
+}
+.Manga.text h2 {
+    position: relative;
+    left: 105px; /* 90px */
+    top: 1.875rem; /* 30px */
+    text-align: center;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.images li {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.images li img {
+    width: 250px;
+    height: auto;
+}
+
+#am {
+    position: relative;
+    left: 30px;
+}
+
+#shoto {
+    position: relative;
+    right: 270px;
+}
+
+#mirio {
+    position: relative;
+    right: 70px;
+}
+
+#sypnosis p {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 15px;
+    max-width: 600px; 
+    margin: auto; 
+}
+
+#about p {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 15px;
+    max-width: 600px; 
+    margin: auto; 
+}
+
+#contacts p {
+    padding-top: 35px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 15px;
+    top: 300px;
+    max-width: 600px; 
+    margin: auto;  
+}
+#footer {
+    text-align: center;
+    font-style: normal;
+}
+
+
+article h3 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+article h6 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*responsive*/
+
+@media screen (max-width: 960px) {
+    .header .logo .navlist {
+        font-size: 20px;
+    }
+}
+
+
