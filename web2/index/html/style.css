@@ -176,12 +176,6 @@ article h6 {
     font-size: 30px;
 }
 
-/*responsive*/
 
-@media screen (max-width: 960px) {
-    .header .logo .navlist {
-        font-size: 20px;
-    }
-}
 
 
